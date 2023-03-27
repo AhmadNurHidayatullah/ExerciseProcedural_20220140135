@@ -5,11 +5,20 @@ double rerata(double a, double b) {
     return (a + b) / 2;
 }
 
-
-int main()
-{
-    std::cout << "Hello World!\n";
+string status(double rata) {
+    if (rata >= 70)
+        return "Lulus";
+    else
+        return "gagal";
 }
+
+string status2(double rata, double nil) {
+    if (rata >= 70 || nil >= 80)
+        return "Lulus";
+    else
+        return "gagal";
+}
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
