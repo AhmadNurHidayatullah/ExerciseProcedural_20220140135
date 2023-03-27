@@ -25,8 +25,11 @@ int main() {
     cin >> nilM;
     cout << "Masukkan nilai bahasa inggris = ";
     cin >> nilB;
+    cout << "nama : asroni, status diterima ";
+    cin >> nilM;
     cout << "status kelulusan = " << status(rerata(nilM, nilB));
     cout << "status kelulusan2 = " << status2(rerata(nilM, nilB), nilM);
+
     return 0;
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
