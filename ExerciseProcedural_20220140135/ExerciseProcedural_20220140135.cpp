@@ -19,7 +19,16 @@ string status2(double rata, double nil) {
         return "gagal";
 }
 
-
+int main() {
+    double nilM, nilB;
+    cout << "Masukkan nilai Matematika = ";
+    cin >> nilM;
+    cout << "Masukkan nilai bahasa inggris = ";
+    cin >> nilB;
+    cout << "status kelulusan = " << status(rerata(nilM, nilB));
+    cout << "status kelulusan2 = " << status2(rerata(nilM, nilB), nilM);
+    return 0;
+}
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
